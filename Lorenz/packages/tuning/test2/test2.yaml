@@ -1,0 +1,24 @@
+# Data generation parameters
+dt: 0.01
+t_train: 5.12
+t_val: 5.12
+t_test: 10.24
+data_split: [0.7, 0.2, 0.1]
+
+# Hyperparameters of Physformer
+block_size: 32
+num_heads: 8
+num_layers: 4
+ffc: 256
+batch_size: 32
+lr: 0.001
+weight_decay: 0.1
+d_model: 16
+
+# Training loop parameters
+num_epochs: 30
+optimizer: "ADAM"
+model: "base"
+lorenz_dim: 3
+
+
